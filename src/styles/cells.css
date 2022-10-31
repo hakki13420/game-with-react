@@ -1,0 +1,6 @@
+.cells{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    width: 55vw;
+    height: 100%;    
+}

@@ -1,0 +1,25 @@
+.options{
+    padding: 30px;    
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.options button{
+    padding: 10px 20px;
+    border: 1px solid gainsboro;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 90%;
+    transition: .4s all ease-in;
+}
+
+.options button:hover{
+    background: orange;
+    color: white;
+}
+.options .player1,.options .player2{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid gainsboro;
+}

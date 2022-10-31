@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html{
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  background: #888;
+  color: white;
+}
+
+.App{
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
