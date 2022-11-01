@@ -6,6 +6,7 @@ import '../styles/options.css'
 export default function Options() {
   const {pieces,setPieces}=useContext(PiecesContext)
   const state=usePieces()
+
   const InitializeGame=()=>{
     setPieces({pieces1:[...state.pieces1],pieces2:[...state.pieces2]})
   }

@@ -10,9 +10,7 @@ const initState={
 }
 function App() {
   const [pieces, setPieces]=useState(initState)
-  {
-    console.log('pies app', pieces)
-  }
+    
   return (
     <div className="App">
       <PiecesContext.Provider value={{pieces, setPieces}}>
